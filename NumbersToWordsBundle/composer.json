@@ -1,0 +1,21 @@
+{
+    "name":        "massil31/numbers-to-words-bundle",
+    "description": "This bundle allows you accessing the symfony2 console via your browser",
+    "keywords":    ["console","javascript","symfony"],
+    "type":        "symfony-bundle",
+    "license":     "MIT",
+    "authors": [
+        {
+            "name":  "Massil Korichi",
+            "email": "massil.korichi@emploipartner.com"
+        }
+    ],
+    "require": {
+        "php":                      ">=5.3.3",
+        "symfony/framework-bundle": ">=2.1.0,<3.0"
+    },
+    "autoload": {
+        "psr-0": { "Ep\\NumbersToWordsBundle": "" }
+    },
+    "target-dir": "Ep/NumbersToWordsBundle"
+}
