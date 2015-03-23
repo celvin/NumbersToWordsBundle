@@ -17,5 +17,10 @@
     "autoload": {
         "psr-0": { "Ep\\NumbersToWordsBundle": "" }
     },
-    "target-dir": "Ep/NumbersToWordsBundle"
+    "target-dir": "Ep/NumbersToWordsBundle",
+	"extra": {
+        "branch-alias": {
+            "dev-master": "0.1"
+        }
+    }
 }
