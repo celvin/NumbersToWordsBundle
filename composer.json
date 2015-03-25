@@ -1,7 +1,7 @@
 {
-    "name":        "massil31/numbers-to-words-bundle",
-    "description": "This bundle allows you accessing the symfony2 console via your browser",
-    "keywords":    ["console","javascript","symfony"],
+    "name":        "ep/numbers-to-words-bundle",
+    "description": "This bundle allows to convert numbers to words",
+    "keywords":    ["translate","numbers","words","symfony"],
     "type":        "symfony-bundle",
     "license":     "MIT",
     "authors": [
