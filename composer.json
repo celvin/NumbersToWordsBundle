@@ -1,7 +1,7 @@
 {
-    "name":        "massil31/numbers-to-words-bundle",
-    "description": "This bundle allows you accessing the symfony2 console via your browser",
-    "keywords":    ["console","javascript","symfony"],
+    "name":        "ep/numbers-to-words-bundle",
+    "description": "This bundle allows to convert numbers to words",
+    "keywords":    ["translate","numbers","words","symfony"],
     "type":        "symfony-bundle",
     "license":     "MIT",
     "authors": [
@@ -15,9 +15,9 @@
         "symfony/framework-bundle": ">=2.1.0,<3.0"
     },
     "autoload": {
-        "psr-0": { "Ep\\NumbersToWordsBundle": "" }
+        "psr-0": { "ep\\NumbersToWordsBundle\\": "" }
     },
-    "target-dir": "Ep/NumbersToWordsBundle",
+    "target-dir": "ep/NumbersToWordsBundle",
 	"extra": {
         "branch-alias": {
             "dev-master": "0.1"
