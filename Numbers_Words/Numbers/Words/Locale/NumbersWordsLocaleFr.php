@@ -1,9 +1,8 @@
 <?php
 
-namespace ep\NumbersToWordsBundle\Numbers_Words\Numbers\Words\Locale;
+namespace celvin\NumbersToWordsBundle\Numbers_Words\Numbers\Words\Locale;
 
-
-use ep\NumbersToWordsBundle\Numbers_Words\Numbers\Words;
+use celvin\NumbersToWordsBundle\Numbers_Words\Numbers\Words;
 
 /**
  * Numbers_Words
