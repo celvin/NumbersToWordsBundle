@@ -1,21 +1,27 @@
 {
-    "name":        "ep/numbers-to-words-bundle",
+    "name":        "celvin/numbers-to-words-bundle",
     "description": "This bundle allows to convert numbers to words",
-    "keywords":    ["translate","numbers","words","symfony"],
+    "keywords":    ["translate","numbers","words","symfony2"],
     "type":        "symfony-bundle",
     "license":     "MIT",
     "authors": [
         {
             "name":  "Massil Korichi",
             "email": "massil.korichi@emploipartner.com"
+        },
+        {
+            "name": "Celvin Rivas",
+            "email": "josecelvin@gmail.com",
+            "homepage": "http://vitelika.com",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php":                      ">=5.3.3",
-        "symfony/framework-bundle": ">=2.1.0,<3.0"
+        "php":                      ">=5.5.0",
+        "symfony/framework-bundle": ">=2.1.0,<=3.0"
     },
     "autoload": {
-        "psr-0": { "ep\\NumbersToWordsBundle\\": "" }
+        "psr-0": { "celvin\\NumbersToWordsBundle\\": "" }
     },
-    "target-dir": "ep/NumbersToWordsBundle"
+    "target-dir": "celvin/NumbersToWordsBundle"
 }
