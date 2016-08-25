@@ -1,11 +1,11 @@
 <?php
 
-namespace ep\NumbersToWordsBundle\Numbers_Words\Numbers;
+namespace celvin\NumbersToWordsBundle\Numbers_Words\Numbers;
 
-use ep\NumbersToWordsBundle\Numbers_Words\Numbers\Words\Exception;
+use celvin\NumbersToWordsBundle\Numbers_Words\Numbers\Words\Exception;
 
-use ep\NumbersToWordsBundle\Numbers_Words\Numbers\Words\Locale\NumbersWordsLocaleFr;
-//use ep\NumbersToWordsBundle\Numbers_Words\Numbers\Words\Locale\NumbersWordsLocaleFr;
+use celvin\NumbersToWordsBundle\Numbers_Words\Numbers\Words\Locale\NumbersWordsLocaleFr;
+//use celvin\NumbersToWordsBundle\Numbers_Words\Numbers\Words\Locale\NumbersWordsLocaleFr;
 /**
  * Numbers_Words
  *
