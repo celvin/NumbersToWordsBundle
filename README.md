@@ -15,7 +15,7 @@ If there are some trubles about the version you can use: pear install channel://
 ## 2 install the bundle:
     composer require celvin/numbers-to-words-bundle
     
-## 2.1 To specify the branch
+### 2.1 To specify the branch
     composer require celvin/numbers-to-words-bundle dev-master
 
 ## 3 Add this to app/AppKernel.php
