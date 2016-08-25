@@ -20,6 +20,12 @@
         "php":                      ">=5.5.0",
         "symfony/framework-bundle": ">=2.1.0,<=3.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "github.com/massil31/NumbersToWordsBundle"
+        }
+    ],
     "autoload": {
         "psr-0": { "celvin\\NumbersToWordsBundle\\": "" }
     },
