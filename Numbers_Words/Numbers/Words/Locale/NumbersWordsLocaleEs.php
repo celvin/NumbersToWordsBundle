@@ -1,6 +1,6 @@
 <?php
 
-namespace ep\NumbersToWordsBundle\Numbers_Words\Numbers\Words\Locale;
+namespace celvin\NumbersToWordsBundle\Numbers_Words\Numbers\Words\Locale;
 /**
  * Numbers_Words
  *
@@ -34,7 +34,7 @@ namespace ep\NumbersToWordsBundle\Numbers_Words\Numbers\Words\Locale;
 /**
  * Include needed files
  */
-use ep\NumbersToWordsBundle\Numbers_Words\Numbers\Words;
+use celvin\NumbersToWordsBundle\Numbers_Words\Numbers\Words;
 
 /**
  * Class for translating numbers into Spanish (Castellano).
