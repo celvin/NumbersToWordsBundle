@@ -20,3 +20,10 @@ If there are some trubles about the version you can use: pear install channel://
 
 ## 3 Add this to app/AppKernel.php
     new celvin\celvinNumbersToWordsBundle(),
+
+## 4 Add use to your controller:
+    use celvin\NumbersToWordsBundle\celvinNumbersToWordsBundle;
+
+## 5 Try it
+    $numbers_words = new Words();
+    $word = $numbers_words->toWords("12378" /**Number**/, 'es'/**locale**/);
