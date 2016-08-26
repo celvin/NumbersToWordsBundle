@@ -19,10 +19,10 @@ If there are some trubles about the version you can use: pear install channel://
     composer require celvin/numbers-to-words-bundle dev-master
 
 ## 3 Add this to app/AppKernel.php
-    new celvin\celvinNumbersToWordsBundle(),
+    new celvin\NumbersToWordsBundle\celvinNumbersToWordsBundle(),
 
 ## 4 Add use to your controller:
-    use celvin\NumbersToWordsBundle\celvinNumbersToWordsBundle;
+    use celvin\NumbersToWordsBundle\Numbers_Words\Numbers\Words;
 
 ## 5 Try it
     $numbers_words = new Words();
