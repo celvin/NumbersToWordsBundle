@@ -27,3 +27,15 @@ If there are some trubles about the version you can use: pear install channel://
 ## 5 Try it
     $numbers_words = new Words();
     $word = $numbers_words->toWords("12378" /**Number**/, 'es'/**locale**/);
+
+### 5.1 Money
+Convert money ammount
+
+<?php
+    // In Controller
+    $numbers_words = new Word();
+
+    $word = $numbers_words->toCurrency('123,56'/**Ammount**/, 'en'/**Locale**/, 'EUR'/**Currency**/, ','/**Decimal Point**/);
+
+    // Output : cent vingt-trois euros cinquante-six centimes
+// Available locales : fr, en, es
